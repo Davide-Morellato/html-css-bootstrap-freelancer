@@ -1,0 +1,43 @@
+ul, ol, menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+
+/* DEBUG */
+
+*{
+    border: 1px solid black
+}
+
+
+
+/* HEADER */
+
+header,
+.bg-watergreen,
+.bg-petrol{
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+.font-gray{
+    color: rgb(100, 107, 114);
+}
+
+.bg-watergreen{
+    background-color: rgb(26, 188, 156);
+}
+
+.bg-petrol{
+   background-color: rgb(58, 84, 109);
+}
+
+.bg-deepblue{
+    background-color: rgb(44, 62, 80);
+}
