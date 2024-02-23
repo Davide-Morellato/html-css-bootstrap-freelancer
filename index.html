@@ -10,20 +10,19 @@
     </head>
 
     <body>
-        <header class="p-3">
+
+        <header class="p-3 page-header bg-deepblue">
             <div class="container">
-                <div class="row justify-content-between py-3 pe-2">
-                    <div class="col-auto h1 m-0">
+                <div class="row justify-content-between py-3 align-items-center">
+                    <div class="col-auto h1 m-0 px-0">
                         <a href="#">
                             START BOOTSTRAP
                         </a>
                     </div>
-                    <div class="col-auto d-md-none fs-5 font-gray border border-dark-subtle">
-                        <a href="#">
-                            <i class="fa-solid fa-bars"></i>
-                        </a href="#">
+                    <div class="col-auto d-md-none fs-2 font-gray rounded-1 border-dark-subtle">
+                        <i class="fa-solid fa-bars p-2"></i>
                     </div>
-                    <ul class="col-auto d-none d-md-flex h4 m-0 align-self-center">
+                    <ul class="col-auto d-none d-md-flex h4 m-0 pe-0">
                         <li class="px-3">
                             <a href="#">
                                 Portfolio
@@ -47,130 +46,177 @@
 
         <main>
                 <!-- First Section -->
-            <section class="p-4 bg-watergreen"> 
-                <div class="container">
-                    <div class="row text-center row-gap-3 py-3">
-                        <div class="col-12 col-md-6 offset-md-3">
-                           <div class="p-3">
-                                <img class="w-50" src="./img/avatar.svg" alt="">
-                           </div>
-                        </div>
+            <section id="hero" class="p-5 bg-watergreen"> 
+                <div class="container text-center">
+                    <figure class="p-3 col-md-6 offset-md-3">
+                        <img class="w-50" src="./img/avatar.svg" alt="">
+                    </figure>
+                    <div class="row">
                         <div class="col-12">
-                           <div class="p-3">
+                            <div class="p-3">
                                 <h1>START BOOTSTRAP</h1>
-                           </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="p-3">3</div>
-                            <div class="p-3">4</div>
+                                <span class="star d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-star p-3 fs-5"></i>
+                                </span>
+                                <div class="p-3 fs-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+                            </div>                       
                         </div>
                     </div>
                 </div>
             </section>
 
                 <!-- Second Section -->
-            <section class="p-4"> 
-                <div class="container">
-                    <div class="row text-center row-gap-3 py-3">
+            <section id="portfolio" class="mt-5 p-5"> 
+                <div class="container text-center">
+
+                    <div class="p-3">
+                        <h1>PORTFOLIO</h1>
+                        <span class="star d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-star p-3 fs-5"></i>
+                        </span>
+                    </div>  
+
+                    <div class="row row-cols-md-2 row-cols-lg-3 row-gap-3 py-3">  
                         <div class="col-12">
-                            <div class="p-3">1</div>
+                            <div class="p-3 rounded-3 bg-bloody">
+                                <img src="./img/cabin.png" alt="cabin into the forest">
+                            </div>
                         </div>
                         <div class="col-12">
-                            <div class="p-3">2</div>
+                            <div class="p-3 rounded-3 bg-gasoline">
+                                <img src="./img/cake.png" alt="piece of cake">
+                            </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="p-3 rounded-3">5</div>
+                        <div class="col-12">
+                            <div class="p-3 rounded-3 bg-death">
+                                <img src="./img/circus.png" alt="circus">
+                            </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="p-3 rounded-3">4</div>
+                        <div class="col-12">
+                            <div class="p-3 rounded-3 bg-sea">
+                                <img src="./img/game.png" alt="SNES joystick">
+                            </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="p-3 rounded-3">6</div>
+                        <div class="col-12">
+                            <div class="p-3 rounded-3 bg-electricblue">
+                                <img src="./img/safe.png" alt="safe">
+                            </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="p-3 rounded-3">7</div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="p-3 rounded-3">8</div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="p-3 rounded-3">9</div>
+                        <div class="col-12">
+                            <div class="p-3 rounded-3 bg-sand">
+                                <img src="./img/submarine.png" alt="yellow submarine (maybe the song of The Beetle)">
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
                 <!-- Third Section -->
-            <section class="p-4 bg-watergreen"> 
-                <div class="container">
-                    <div class="row text-center row-gap-3 py-3">
+            <section id="about" class="p-5 bg-watergreen"> 
+                <div class="container text-center">
+                    <div class="p-3">
+                        <h1>ABOUT</h1>
+                        <span class="star d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-star p-3 fs-5"></i>
+                        </span>
+                    </div>
+                    <div class="row row-gap-3 py-3">
                         <div class="col-12">
-                            <div class="p-3">1</div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="p-3 rounded-3">5</div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="p-3 rounded-3">4</div>
+                            <p class="p-5 divide_col text-start fs-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non odit ex, veniam repellendus illum eaque? Perferendis provident ullam praesentium veniam accusamus similique, quod voluptatem eveniet rerum, odit molestias quos ab. Ipsa animi error tempore ducimus minus architecto, minima incidunt provident saepe consequatur repudiandae, voluptates libero corporis nisi veritatis ea impedit voluptatibus accusantium ipsam eaque praesentium facilis ad. Aut nostrum maiores voluptates facere vel.
+                            </p>
                         </div>
                         <div class="col-12">
-                            <div class="p-3">2</div>
+                            <button id="download" type="button" class="btn btn-outline-light fs-4">
+                                <i class="fa-solid fa-download"></i>
+                                <label for="download">Download</label>
+                            </button>
                         </div>
                     </div>
                 </div>
             </section>
 
                 <!-- Fourth Section -->
-            <section class="p-4"> 
+            <section id="contact-me" class="mt-5 p-5"> 
                 <div class="container">
-                    <div class="row text-center row-gap-3 py-3">
-                        <div class="col-12">
-                            <div class="p-3">1</div>
-                        </div>
-                        <div class="col-12">
-                            <div class="p-3">2</div>
-                        </div>
+                    <div class="mt-5 text-center">
+                        <h1>CONTACT ME</h1>
+                        <span class="star d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-star p-3 fs-5"></i>
+                        </span>
                     </div>
-                </div>
-            </section>
-
-                <!-- Fifth Section -->
-            <section class="p-4"> 
-                <div class="container">
-                    <div class="row text-center py-3">
-                        <div class="col-12">
-                            <div class="p-3">1</div>
+                    
+                    <form class="p-5" action="index.html">
+                        <div class="mb-3 pt-3">
+                            <input type="name" class="form-control border-0 border-bottom fs-5" id="exampleInputName1" placeholder="Name">
                         </div>
-                    </div>
+                        <div class="mb-3 pt-3">
+                            <input type="email" class="form-control border-0 border-bottom fs-5" id="exampleInputEmail1" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3 pt-3">
+                            <input type="phone" class="form-control border-0 border-bottom fs-5" id="exampleInputPhoneNumber1" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3 pt-3">
+                            <textarea class="form-control border-0 border-bottom fs-5" id="exampleFormControlTextarea1" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="mt-2 btn btn-mine fs-4">Send</button>
+                        </div>   
+                    </form>
                 </div>
             </section>
         </main>
 
         <footer>
-                <!-- Sixth Section -->
-            <section class="p-4 bg-petrol"> 
+        
+            <section id="contacts" class="p-5 bg-petrol"> 
                 <div class="container">
-                    <div class="row text-center row-gap-3 py-3">
+                    <div class="row text-center row-gap-3 py-3 h_100">
                         <div class="col-12 col-md-4">
-                            <div class="p-3">1</div>
+                            <div class="p-3">
+                                <h3>LOCATION</h3>
+                                <a href="#" class="fs-4">
+                                    2215 John Daniel Drive Clark, MO 54243
+                                </a>
+                            </div>
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="p-3">2</div>
+                            <div class="p-3">
+                                <h3>AROUND THE WEB</h3>
+                            </div>
+                            <div class="socials d-flex align-items-center justify-content-around">
+                                <a href="#" class="aspect_circle border rounded-circle">
+                                    <i class="fa-brands fa-facebook-f fs-4"></i>
+                                </a>
+                                <a href="#" class="aspect_circle border rounded-circle">
+                                    <i class="fa-brands fa-google-plus-g fs-4"></i>
+                                </a>
+                                <a href="#" class="aspect_circle border rounded-circle">
+                                    <i class="fa-brands fa-x-twitter fs-4"></i>
+                                </a>
+                                <a href="#" class="aspect_circle border rounded-circle">
+                                    <i class="fa-brands fa-instagram fs-4"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="p-3">2</div>
+                            <div class="p-3">
+                                <h3>ABOUT FREELANCER</h3>
+                                <p class="fs-4">
+                                    Freelance is a free to use, open source Bootstrap theme created by<a href="#" class="ms-2 font-green">Start Bootstrap</a>.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-
-                <!-- Seventh Section -->
-            <section class="p-4 bg-deepblue"> 
+            <section id="copyright" class="p-4 bg-deepblue"> 
                 <div class="container">
                     <div class="row text-center py-3">
                         <div class="col-12">
-                            <div class="p-3">1</div>
+                            <div class="p-3 fs-5">
+                                Copyright &copy; Your Website 2019
+                            </div>
                         </div>
                     </div>
                 </div>

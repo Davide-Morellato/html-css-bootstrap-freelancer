@@ -11,21 +11,19 @@ img{
     max-width: 100%;
 }
 
-/* DEBUG */
 
-*{
-    border: 1px solid black
+
+/* Structure */
+
+.page-header,
+.bg-watergreen,
+.bg-petrol,
+.bg-deepblue{
+    color: white;
 }
 
-
-
-/* HEADER */
-
-header,
-.bg-watergreen,
-.bg-petrol{
+.bg-deepblue{
     background-color: rgb(44, 62, 80);
-    color: white;
 }
 
 .font-gray{
@@ -40,6 +38,72 @@ header,
    background-color: rgb(58, 84, 109);
 }
 
-.bg-deepblue{
-    background-color: rgb(44, 62, 80);
+.star::before,
+.star::after{
+    content: '';
+    width: 110px;
+    height: 3px;
+    background-color: white;
+}
+
+#portfolio .star::after,
+#portfolio .star::before,
+#contact-me .star::after,
+#contact-me .star::before{
+    background-color: black;
+}
+
+.bg-bloody{
+    background-color: rgb(186, 75, 99);
+}
+
+.bg-gasoline{
+    background-color: rgb(30, 164, 182);
+}
+
+.bg-death{
+    background-color: black;
+}
+
+.bg-sea{
+    background-color: rgb(28, 131, 193);
+}
+
+.bg-electricblue{
+    background-color: rgb(14, 56, 181);
+}
+
+.bg-sand{
+   background-color: rgb(204, 178, 163);
+}
+
+.divide_col{
+    column-count: 2;
+}
+
+
+.btn-mine{
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+.btn-mine:hover{
+    background-color:  rgb(30, 164, 182);
+    color: white;
+}
+
+.h_100{
+    height: 100%;
+}
+
+.aspect_circle{
+    width: 60px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-green{
+    color: rgb(28, 182, 153);
 }
